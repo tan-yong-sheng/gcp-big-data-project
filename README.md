@@ -30,13 +30,19 @@ The entire data pipeline is orchestrated using **Google Cloud Composer**, which 
 
 The ingestion layer collects raw data from various sources, including APIs and pre-existing datasets. For this project, the dataset on **Carbon Dioxide (CO2) emissions by vehicles** is fetched from Kaggle using the Kaggle API, and the process is automated using **Google Cloud Functions**. This ensures seamless, repeatable data collection and ingestion into Google Cloud Storage.
 
+![](/images/cloud-function-for-data-ingest.png)
+
 ## Data Storage
 
 In the **Data Storage Layer**, raw data is securely stored in **Google Cloud Storage**, a cloud-based data lake solution. This provides a scalable and cost-effective way to store large datasets, ensuring they are easily accessible for further processing.
 
+![](/images/dataset-in-google-cloud-storage.png)
+
 ## Data Processing
 
 In the **Data Processing Layer**, the raw data undergoes cleansing, transformation, and preparation. Using **Dataproc (PySpark)**, missing values are handled, duplicates are removed, and the data is transformed into a usable format. Afterward, the processed data is loaded into **BigQuery** for advanced analytics. The entire ETL workflow is automated and orchestrated by Google Cloud Composer.
+
+![](/images/dataproc-job-info.png)
 
 ## Data Analytics
 
