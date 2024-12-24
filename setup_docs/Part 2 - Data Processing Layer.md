@@ -16,11 +16,11 @@ Step 1: Configure Environment Variables
 
 The commands are executed under the cloud shell terminal…
 
-![](../images/2_Part 2 - Data Processing Layer.jpg)
+![](../images/2_Part%202%20-%20Data%20Processing%20Layer.jpg)
 
 Set up the necessary environment variables in Cloud Shell:
 
-```text-plain
+```bash
 > export PROJECT_ID=steam-link-443214-f2
 > export REGION=us-central1
 > export BUCKET=dataproc-composer
@@ -34,7 +34,7 @@ Step 2: Enable Required APIs
 
 Enable the necessary Google Cloud APIs:
 
-```text-plain
+```bash
 > gcloud services enable \
   storage.googleapis.com \
   bigquery.googleapis.com \
@@ -46,14 +46,14 @@ Step 3: Configure Network Settings
 
 *   Enable private Google Access for the default subnet:
 
-```text-plain
+```bash
 # Enable private IP Google access
 > gcloud compute networks subnets update default \
  --region=${REGION} \
  --enable-private-ip-google-access
 ```
 
-```text-plain
+```bash
 # Verify the configuration
 > gcloud compute networks subnets describe default \
  --region=${REGION} \
@@ -65,7 +65,7 @@ Step 4: Set Up Storage
 
 *   Create GCS buckets:
 
-```text-plain
+```bash
 # Create main data bucket
 > gsutil mb -l ${REGION} gs://${BUCKET}
 
@@ -85,7 +85,7 @@ Step 5: Configure IAM Permissions
 
 Grant storage admin permissions to the service account:
 
-```text-plain
+```bash
 > gcloud projects add-iam-policy-binding ${PROJECT_ID} \
     --member=serviceAccount:${SERVICE_ACCOUNT_EMAIL} \
     --role="roles/storage.admin"
@@ -97,7 +97,7 @@ Step 6: Create Dataproc Cluster
 
 Create a single-node Dataproc cluster with component gateway enabled:
 
-```text-plain
+```bash
 > gcloud dataproc clusters create ${PHS_CLUSTER_NAME} \
   --region=${REGION} \
   --single-node \
@@ -276,11 +276,11 @@ if __name__ == "__main__":
    --bucket_name=${STAGING_BUCKET}
 ```
 
-![](../images/4_Part 2 - Data Processing Layer.jpg)
+![](../images/4_Part%202%20-%20Data%20Processing%20Layer.jpg)
 
 And here is the UI where you could monitor the Dataproc's Job:
 
-![](../images/3_Part 2 - Data Processing Layer.jpg)
+![](../images/3_Part%202%20-%20Data%20Processing%20Layer.jpg)
 
 Script Features
 ---------------

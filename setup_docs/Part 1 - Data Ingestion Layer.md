@@ -35,7 +35,7 @@ Step 2: Configure Kaggle Authentication
 *   Go to [Kaggle Settings](https://www.kaggle.com/settings)
 *   Click on "Create New API Token" to download kaggle.json
 
-![](../images/1_Part 1 - Data Ingestion Layer.jpg)
+![](../images/1_Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
 *   Create a new kaggle.json file in Cloud Shell
 
@@ -45,7 +45,7 @@ Step 2: Configure Kaggle Authentication
 
 And paste all the contents in `kaggle.json` file downloaded from Kaggle website into the `kaggle.json` file in the Cloud Shell
 
-![](../images/2_Part 1 - Data Ingestion Layer.jpg)
+![](../images/2_Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
 Step 3: Enable Required Google Cloud APIs
 -----------------------------------------
@@ -239,11 +239,11 @@ Step 7: Test the Cloud Function
 
 If you open the link directly in your browser, you will see this output:
 
-![](../images/4_Part 1 - Data Ingestion Layer.jpg)
+![](../images/4_Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
 And when you check your Google Cloud Storage, you will see the data will be downloaded:
 
-![](../images/5_Part 1 - Data Ingestion Layer.jpg)
+![](../images/5_Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
 Function Details
 ----------------
