@@ -107,7 +107,7 @@ Create a single-node Dataproc cluster with component gateway enabled:
 
 Output here:
 
-![](1_Part 2 - Data Processing Layer.jpg)
+![](/images/1_Part%202%20-%20Data%20Processing%20Layer.jpg)
 
 Step 7: Test PySpark Setup
 --------------------------
