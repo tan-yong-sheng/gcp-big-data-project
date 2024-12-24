@@ -1,1 +1,1 @@
-data-pipeline-architecture.png
+![](/images/data-pipeline-architecture.png)
