@@ -7,9 +7,9 @@ This project demonstrates the design and implementation of a Data LakeHouse Arch
 
 Please feel free to look into our setup guide which our team set up this simple Data Lakehouse in Google Cloud using tools like Cloud Function, Google Cloud Storage, Dataproc, BigQuery and Looker Studio.
 - [Part 1 - Data Ingestion Layer](/setup_docs/Part%201%20-%20Data%20Ingestion%20Layer.md)
-- [Part 2a - Data Processing Layer.md](/setup_docs/Part%202a%20-%20Data%20Processing%20Layer.md)
-- [Part 2b - Data Processing Layer.md](/setup_docs/Part%202b%20-%20Data%20Processing%20Layer.md)
-- [Part 3 - Orchestration Layer.md](/setup_docs/Part%203%20-%20Orchestration%20Layer.md)
+- [Part 2a - Data Processing Layer](/setup_docs/Part%202a%20-%20Data%20Processing%20Layer.md)
+- [Part 2b - Data Processing Layer](/setup_docs/Part%202b%20-%20Data%20Processing%20Layer.md)
+- [Part 3 - Orchestration Layer](/setup_docs/Part%203%20-%20Orchestration%20Layer.md)
 
 And here is the a simple dataset about CO2 emissions in Canada we're performing data processing, analytics modeling and visualization with, using tools in Google Cloud!
 - [Data Catalog](/dataset/)
