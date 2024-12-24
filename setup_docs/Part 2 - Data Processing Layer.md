@@ -1,4 +1,4 @@
-# Part 2 - Data Processing Layer : Set up Dataproc for ELT task
+# Part 2 - Data Processing Layer : Set up Dataproc for ET: task
 Setting Up Dataproc for Data Processing Pipeline
 ------------------------------------------------
 
