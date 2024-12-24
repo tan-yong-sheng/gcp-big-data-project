@@ -1,1 +1,1 @@
-"# gcp-big-data-project" 
+data-pipeline-architecture.png
