@@ -42,9 +42,8 @@ The **Data Analytics Layer** leverages **BigQuery** for fast querying and data a
 
 
 - BigQuery
-![](/images/bigquery-data-preview.png)
-
-![](/images/bigquery-schema-preview.png)
+    ![](/images/bigquery-data-preview.png)
+    ![](/images/bigquery-schema-preview.png)
 
 
 - BigQuery ML
