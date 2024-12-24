@@ -36,7 +36,7 @@ The ingestion layer collects raw data from various sources, including APIs and p
 
 In the **Data Storage Layer**, raw data is securely stored in **Google Cloud Storage**, a cloud-based data lake solution. This provides a scalable and cost-effective way to store large datasets, ensuring they are easily accessible for further processing.
 
-![](/images/dataset-in-google-cloud-storage.png)
+![](/images/dataset-in-gcs.png)
 
 ## Data Processing
 
