@@ -24,6 +24,8 @@ The entire data pipeline is orchestrated using **Google Cloud Composer**, which 
 - **Data Ingestion Layer**: Automates the ingestion of CO2 emissions data from Kaggle using the Kaggle API.
 - **Data Processing Layer**: Manages the coordination between Dataproc (PySpark) and Cloud SQL for data transformation and loading into BigQuery.
 
+![](/images/airflow-task-orchestration.png)
+
 ## Data Ingestion
 
 The ingestion layer collects raw data from various sources, including APIs and pre-existing datasets. For this project, the dataset on **Carbon Dioxide (CO2) emissions by vehicles** is fetched from Kaggle using the Kaggle API, and the process is automated using **Google Cloud Functions**. This ensures seamless, repeatable data collection and ingestion into Google Cloud Storage.
@@ -41,11 +43,11 @@ In the **Data Processing Layer**, the raw data undergoes cleansing, transformati
 The **Data Analytics Layer** leverages **BigQuery** for fast querying and data analysis. BigQuery supports large-scale analytics, allowing for in-depth analysis of CO2 emissions data. The analytics layer also supports **BigQuery ML** for machine learning model development, enabling the prediction of future trends and uncovering insights related to the data, such as the impact of fuel type on CO2 emissions.
 
 
-- BigQuery
-    ![](/images/bigquery-data-preview.png)
+- Analytics with BigQuery
     ![](/images/bigquery-schema-preview.png)
+    ![](/images/bigquery-data-preview.png)
 
-- BigQuery ML
+- Modeling with BigQuery ML
     ![](/images/bigquery-ml-model.png)
     ![](/images/bigquery-ml-model-result.png)
 
