@@ -40,6 +40,15 @@ In the **Data Processing Layer**, the raw data undergoes cleansing, transformati
 
 The **Data Analytics Layer** leverages **BigQuery** for fast querying and data analysis. BigQuery supports large-scale analytics, allowing for in-depth analysis of CO2 emissions data. The analytics layer also supports **BigQuery ML** for machine learning model development, enabling the prediction of future trends and uncovering insights related to the data, such as the impact of fuel type on CO2 emissions.
 
+
+- BigQuery
+![](/images/bigquery-data-preview.png)
+
+![](/images/bigquery-schema-preview.png)
+
+
+- BigQuery ML
+
 ## Data Visualization
 
 Finally, the **Data Visualization Layer** uses **Looker Studio** to create interactive dashboards and reports, helping stakeholders visualize trends and insights derived from the analytics layer. For example, visualizations could display the vehicle models contributing to emissions trends or the impact of fuel consumption on CO2 emissions.
@@ -49,7 +58,7 @@ Finally, the **Data Visualization Layer** uses **Looker Studio** to create inter
 
 ## Tools Used
 
-| **Layer**         | **Tools**                 | **Justification**                                               |
+| **Layer**         | **Tools**                 | **Uses**                                               |
 |-------------------|---------------------------|-----------------------------------------------------------------|
 | Orchestration     | Google Cloud Composer     | Automates task scheduling and coordinates data flow.            |
 | Ingestion         | Cloud Functions           | Automates data collection from APIs, including Kaggle.           |
