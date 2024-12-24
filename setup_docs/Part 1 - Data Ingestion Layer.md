@@ -16,7 +16,7 @@ Step 1: Environment Setup
 
 The commands are executed under the cloud shell terminal…
 
-![](../images/Part 1 - Data Ingestion Layer.jpg)
+![](../images/Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
 First, set up the necessary environment variables in Cloud Shell:
 
