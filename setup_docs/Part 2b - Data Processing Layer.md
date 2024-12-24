@@ -6,7 +6,7 @@ BigQuery, a columnar analytics database, does not enforce constraints like uniqu
 
 To prevent duplicates during the data insertion process, the `MERGE` statement can be used to upsert data from a staging table into a fact table, ensuring data consistency.
 
-![](../images/Part%202b%20-%20Data%20Processing%20Layer.jpg)
+![](../images/Part%202b%20-%20Data%20Processing%20Layer%20with.jpg)
 
 ```SQL
 -- upsert data from staging table to fact table, to avoid duplicates during insertion task
