@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/87fbe896-335c-4eae-b440-dfca3677089e)# Part 2b - Data processing with Cloud SQL in BigQuery
+# Part 2b - Data processing with Cloud SQL in BigQuery
 Upserting Data from Staging to Fact Table to Avoid Duplicates
 -------------------------------------------------------------
 
@@ -6,7 +6,7 @@ BigQuery, a columnar analytics database, does not enforce constraints like uniqu
 
 To prevent duplicates during the data insertion process, the `MERGE` statement can be used to upsert data from a staging table into a fact table, ensuring data consistency.
 
-![](../images/bigquery-cloud-sql.jpg)
+![](../images/bigquery-cloud-sql.png)
 
 ```SQL
 -- upsert data from staging table to fact table, to avoid duplicates during insertion task
