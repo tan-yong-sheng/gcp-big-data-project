@@ -255,16 +255,6 @@ The Cloud Function performs the following operations:
 3.  Updates the CSV headers to standardized names
 4.  Uploads the processed file to Google Cloud Storage
 
-Error Handling
---------------
-
-The function includes comprehensive error handling for:
-
-*   Missing environment variables
-*   Kaggle authentication failures
-*   Download errors
-*   File processing issues
-*   GCS upload failures
 
 Monitoring
 ----------

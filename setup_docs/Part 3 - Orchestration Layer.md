@@ -263,23 +263,6 @@ The DAG performs the following operations:
 2.  Submits PySpark job to Dataproc for data processing
 3.  Loads processed data into BigQuery using MERGE operation for upsert operation which avoid duplicated entries being appended multiple times in BigQuery
 
-Error Handling
---------------
-
-The DAG includes retry mechanisms for:
-
-*   Cloud Function failures
-*   Dataproc job submission issues
-*   BigQuery load errors
-
-Monitoring
-----------
-
-Monitor DAG execution through:
-
-*   Airflow web UI
-*   Cloud Composer logs
-*   BigQuery job history
 
 References
 ----------

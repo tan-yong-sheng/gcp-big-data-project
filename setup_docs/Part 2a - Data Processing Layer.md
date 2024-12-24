@@ -287,12 +287,8 @@ Script Features
 
 The GCS to BigQuery script includes:
 
-*   Explicit schema definition for data type control
 *   Data deduplication
-*   Column name standardization
-*   Configurable input and output locations
-*   Comprehensive error handling
-*   Progress logging
+*   Handling missing values
 
 Monitoring
 ----------
@@ -301,7 +297,6 @@ You can monitor job progress through:
 
 *   Dataproc Jobs UI
 *   Cloud Logging
-*   BigQuery job history
 
 References
 ----------
