@@ -4,6 +4,9 @@ This project demonstrates the design and implementation of a Data LakeHouse Arch
 
 ![](/images/data-pipeline-architecture.png)
 
+
+Please feel free to look into our setup guide which our team set up this simple Data Lakehouse in Google Cloud using tools like Cloud Function, Google Cloud Storage, Dataproc, BigQuery and Looker Studio.
+
 ## Overview
 
 Data is collected from various sources, including Kaggle, through automated Python scripts and cloud functions. This data is then stored securely in Google Cloud Storage, which serves as a scalable and durable data lake. The data undergoes ETL (Extract, Transform, Load) processing using Dataproc (for distributed data processing) and Cloud SQL. Once the data is prepared, it is loaded into BigQuery for fast querying and analytics. Finally, insights are visualized through Looker Studio, providing stakeholders with interactive dashboards and reports to drive data-driven decisions.
