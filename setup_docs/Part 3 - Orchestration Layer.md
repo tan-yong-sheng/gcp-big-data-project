@@ -18,7 +18,7 @@ Step 1: Environment Setup
 
 The commands are executed under the cloud shell terminal
 
-![](/images/Part 3 - Orchestration Layer.jpg)
+![](../images/Part 3 - Orchestration Layer.jpg)
 
 *   Set environment variables in Cloud Shell:
 
@@ -64,7 +64,7 @@ Move to Dataproc's script we've written earlier in Part 2 at `**scripts/dataproc
 > gsutil cp dpr_scripts/dataproc_gcs_to_gbq_job.py gs://${DAGS_BUCKET}/scripts/dataproc_gcs_to_gbq_job.py
 ```
 
-![](/images/3_Part 3 - Orchestration Layer.jpg)
+![](../images/3_Part 3 - Orchestration Layer.jpg)
 
 Step 5: Set Up Airflow Connection
 ---------------------------------
@@ -81,7 +81,7 @@ gcloud composer environments run ${COMPOSER_ENV_NAME} \
 
 This command will create a new connection called ‘http\_default’ in Google Cloud Composer
 
-![](/images/5_Part 3 - Orchestration Layer.jpg)
+![](../images/5_Part 3 - Orchestration Layer.jpg)
 
 Step 6: Deploy DAG
 ------------------
@@ -231,11 +231,11 @@ So, here is the flow of the tasks being executed and automated:
 *   Perform ETL processing via Pyspark in DataProc, and then load the clean data into staging table in BigQuery
 *   Upsert the data from staging table in BigQuery to fact table in BigQuery
 
-![](/images/6_Part 3 - Orchestration Layer.jpg)
+![](../images/6_Part 3 - Orchestration Layer.jpg)
 
 The DAG code is displayed in Airflow UI as well:
 
-![](/images/7_Part 3 - Orchestration Layer.jpg)
+![](../images/7_Part 3 - Orchestration Layer.jpg)
 
 *   Upload DAG to Composer bucket:
 
@@ -252,7 +252,7 @@ Step 7: Verify Deployment
 > gsutil cat gs://${DAGS_BUCKET}/dags/co2_emissions_dag.py
 ```
 
-![](/images/4_Part 3 - Orchestration Layer.jpg)
+![](../images/4_Part 3 - Orchestration Layer.jpg)
 
 DAG Details
 -----------

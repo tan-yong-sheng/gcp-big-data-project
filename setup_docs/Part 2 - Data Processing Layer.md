@@ -16,7 +16,7 @@ Step 1: Configure Environment Variables
 
 The commands are executed under the cloud shell terminal…
 
-![](/images/2_Part 2 - Data Processing Layer.jpg)
+![](../images/2_Part 2 - Data Processing Layer.jpg)
 
 Set up the necessary environment variables in Cloud Shell:
 
@@ -276,11 +276,11 @@ if __name__ == "__main__":
    --bucket_name=${STAGING_BUCKET}
 ```
 
-![](/images/4_Part 2 - Data Processing Layer.jpg)
+![](../images/4_Part 2 - Data Processing Layer.jpg)
 
 And here is the UI where you could monitor the Dataproc's Job:
 
-![](/images/3_Part 2 - Data Processing Layer.jpg)
+![](../images/3_Part 2 - Data Processing Layer.jpg)
 
 Script Features
 ---------------
