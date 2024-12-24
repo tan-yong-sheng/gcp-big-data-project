@@ -11,6 +11,9 @@ Please feel free to look into our setup guide which our team set up this simple 
 - [Part 2b - Data Processing Layer.md](/setup_docs/Part%202b%20-%20Data%20Processing%20Layer.md)
 - [Part 3 - Orchestration Layer.md](/setup_docs/Part%203%20-%20Orchestration%20Layer.md)
 
+And here is the a simple dataset about CO2 emissions in Canada we're performing data processing, analytics modeling and visualization with, using tools in Google Cloud!
+- [Data Catalog](/dataset/README.md)
+
 ## Overview
 
 Data is collected from various sources, including Kaggle, through automated Python scripts and cloud functions. This data is then stored securely in Google Cloud Storage, which serves as a scalable and durable data lake. The data undergoes ETL (Extract, Transform, Load) processing using Dataproc (for distributed data processing) and Cloud SQL. Once the data is prepared, it is loaded into BigQuery for fast querying and analytics. Finally, insights are visualized through Looker Studio, providing stakeholders with interactive dashboards and reports to drive data-driven decisions.
