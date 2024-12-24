@@ -12,7 +12,7 @@ Please feel free to look into our setup guide which our team set up this simple 
 - [Part 3 - Orchestration Layer](/setup_docs/Part%203%20-%20Orchestration%20Layer.md)
 
 And here is the a simple dataset about CO2 emissions in Canada we're performing data processing, analytics modeling and visualization with, using tools in Google Cloud!
-- [Data Catalog](/dataset/)
+- [Data Description](/dataset/)
 
 ## Overview
 
