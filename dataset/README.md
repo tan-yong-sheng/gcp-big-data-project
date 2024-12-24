@@ -9,25 +9,29 @@ This dataset contains the emission rate of CO2 by vehicles in Canada and is usef
 
 The data comes from Kaggle: https://www.kaggle.com/datasets/isaacfemiogunniyi/co2-emission-of-vehicles-in-canada/data
 
+This data has 12 columns, and 7385 rows in total.
+
 ## Data Dictionary
 
-| **Column header**                     | **Label**                            | **Description**                                                                                       |
+| **Column header**                     | **Label**                     | **Description**                                                                                       |
 |--------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------|
 | make                           | **Make**                             | The company that manufactures the vehicle.                                                            |
 | model                          | **Model**                            | The vehicle's model.                                                                                  |
 | vehicle_class                  | **Vehicle Class**                    | Vehicle class by utility, capacity, and weight.                                                       |
 | engine_size                    | **Engine Size (L)**                  | The engine's displacement in liters.                                                                  |
-| cylinders                      | **Cylinders**                  | The number of cylinders.                                                                                    |
+| cylinders                      | **Cylinders**                        | The number of cylinders.                                                                                    |
 | transmission                   | **Transmission**                     | The transmission type: A = Automatic, AM = Automatic Manual, AS = Automatic with select shift, AV = Continuously variable, M = Manual, 3-10 = the number of gears. |
 | fuel_type                      | **Fuel Type**                        | The fuel type: X = Regular gasoline, Z = Premium gasoline, D = Diesel, E = Ethanol (E85), N = Natural gas. |
-| fuel_comsumption_comb_lkm      | **Fuel Consumption Comb (L/100 km)** | Combined city/highway (55%/45%) fuel consumption in liters per 100 km (L/100 km).                      |
-| fuel_comsumption_comb_mpg     | **Fuel Consumption Comb (mpg)**       | 	Fuel Consumption Combined (mpg): Combined city/highway (55%/45%) fuel consumption in miles per gallon.  |
-| co2_emissions                  | **CO2 Emissions (g/km)**             | The tailpipe carbon dioxide emissions in grams per kilometer for combined city and highway driving.   |
+| fuel_consumption_city          | **Fuel Consumption City (L/100 km)** | Fuel consumption in liters per 100 km for city driving.                      |
+| fuel_comsumption_comb_hwy      | **Fuel Consumption Hwy (L/100 km)** | Fuel consumption in liters per 100 km for highway driving.                        |
+| fuel_comsumption_comb_Lkm      | **Fuel Consumption Comb (L/100 km)** | Combined city/highway (55%/45%) fuel consumption in liters per 100 km (L/100 km).                      |
+| fuel_comsumption_comb_mpg      | **Fuel Consumption Comb (mpg)**       | 	Combined city/highway (55%/45%) fuel consumption in miles per gallon.  |
+| co2_emissions (Target)         | **CO2 Emissions (g/km)**             | The tailpipe carbon dioxide emissions in grams per kilometer for combined city and highway driving.   |
 
 
 ## Data Transformation Plan
 
 We will perform a few data processing via pyspark in Dataproc as follows:
-- Remove duplicated rows, if any
-- Remove rows with missing values, if any
+- Remove duplicated rows
+- Remove rows with missing values
 
