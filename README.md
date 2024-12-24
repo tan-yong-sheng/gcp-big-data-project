@@ -44,6 +44,9 @@ The **Data Analytics Layer** leverages **BigQuery** for fast querying and data a
 
 Finally, the **Data Visualization Layer** uses **Looker Studio** to create interactive dashboards and reports, helping stakeholders visualize trends and insights derived from the analytics layer. For example, visualizations could display the vehicle models contributing to emissions trends or the impact of fuel consumption on CO2 emissions.
 
+![](/images/visualization-with-looker-studio.png)
+
+
 ## Tools Used
 
 | **Layer**         | **Tools**                 | **Justification**                                               |
