@@ -50,7 +50,7 @@ Step 3: Create Cloud Composer Environment
   --project ${PROJECT_ID} \
   --location ${REGION} \
   --environment-size small \
-  --image-version composer-3-airflow-2.10.2 \
+  --image-version composer-3-airflow-2.9.3 \
   --env-variables=MY_PROJECT_ID=${PROJECT_ID},REGION=${REGION},ZONE=${ZONE},PHS_CLUSTER_NAME=${PHS_CLUSTER_NAME},BUCKET=${BUCKET},STAGING_BUCKET=${STAGING_BUCKET} \
   --storage-bucket=${DAGS_BUCKET}
 ```
