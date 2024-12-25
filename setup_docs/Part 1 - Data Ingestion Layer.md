@@ -20,7 +20,7 @@ The commands are executed under the cloud shell terminal…
 
 First, set up the necessary environment variables in Cloud Shell:
 
-```text-plain
+```bash
 > export PROJECT_ID=steam-link-443214-f2
 > export REGION=us-central1
 > export BUCKET=dataproc-composer
@@ -230,6 +230,11 @@ gcloud functions deploy download_and_upload \
   --memory=1024MB
 ```
 
+![](/images/Cloud-function-setup.png)
+
+![](/images/code-in-cloud-function.png)
+
+
 Step 7: Test the Cloud Function
 -------------------------------
 
@@ -261,7 +266,7 @@ Monitoring
 
 You can monitor the function's execution using Cloud Logging:
 
-```text-plain
+```bash
 gcloud functions logs read download_and_upload
 ```
 
