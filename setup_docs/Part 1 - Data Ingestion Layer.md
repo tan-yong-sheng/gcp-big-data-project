@@ -230,6 +230,8 @@ gcloud functions deploy download_and_upload \
   --memory=1024MB
 ```
 
+After waiting for around 30s - 1 min, our script will be deployed to the Cloud Function, as follows:
+
 ![](/images/Cloud-function-setup.png)
 
 ![](/images/code-in-cloud-function.png)

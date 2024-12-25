@@ -2,6 +2,8 @@
 Upserting Data from Staging to Fact Table to Avoid Duplicates
 -------------------------------------------------------------
 
+> Before you continue to this guide, you should have BigQuery table setup in your Google Cloud account. If you haven't set it up yet. Please refer to our guide on [Part 3 - Analytics Layer: Set up BigQuery](./Part%203%20-%20Analytics%20Layer.md), and then jump back to this guide.
+
 BigQuery, a columnar analytics database, does not enforce constraints like unique keys, which means it allows inserting duplicate records. 
 
 To prevent duplicates during the data insertion process, the `MERGE` statement can be used to upsert data from a staging table into a fact table, ensuring data consistency.

@@ -1,6 +1,6 @@
 # Data LakeHouse Architecture Pipeline
 
-This project demonstrates the design and implementation of a Data LakeHouse Architecture Pipeline using Google Cloud Platform (GCP) services. The pipeline is structured into five key layers: Ingestion, Storage, Process, Analytics, and Visualization. Each layer plays a critical role in transforming raw data into actionable insights, ensuring scalability, reliability, and automation at every stage of the data workflow.
+This project demonstrates the design and implementation of a basic Data LakeHouse Architecture Pipeline using Google Cloud Platform (GCP) services. The pipeline is structured into five key layers: Ingestion, Storage, Process, Analytics, and Visualization. Each layer plays a critical role in transforming raw data into actionable insights, ensuring scalability, reliability, and automation at every stage of the data workflow.
 
 ![](/images/data-pipeline-architecture.png)
 
@@ -9,7 +9,9 @@ Please feel free to look into our setup guide which our team set up this simple 
 - [Part 1 - Data Ingestion Layer with Cloud Function](/setup_docs/Part%201%20-%20Data%20Ingestion%20Layer.md)
 - [Part 2a - Data Processing Layer with Dataproc](/setup_docs/Part%202a%20-%20Data%20Processing%20Layer.md)
 - [Part 2b - Data Processing Layer with Cloud SQL in BigQuery](/setup_docs/Part%202b%20-%20Data%20Processing%20Layer.md)
-- [Part 3 - Orchestration Layer with Composer](/setup_docs/Part%203%20-%20Orchestration%20Layer.md)
+- [Part 3 - Analytics Layer with BigQuery](/setup_docs/Part%203%20-%20Analytics%20Layer.md)
+
+- [Part 4 - Orchestration Layer with Composer](/setup_docs/Part%204%20-%20Orchestration%20Layer.md)
 
 And here is the a simple dataset about CO2 emissions in Canada we're performing data processing, analytics modeling and visualization with, using tools in Google Cloud!
 - [Data Description](/dataset/)
