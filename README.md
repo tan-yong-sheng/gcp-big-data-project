@@ -5,7 +5,7 @@ This project demonstrates the design and implementation of a basic Data LakeHous
 ![](/images/data-pipeline-architecture.png)
 
 
-We invite you to explore our documentation guide, which outlines the setup steps for creating a simple Data Lakehouse in Google Cloud. Our team utilized tools like Cloud Functions, Google Cloud Storage, Dataproc, BigQuery, and Looker Studio to build this streamlined solution.
+We would like to invite you to explore our documentation guide, which outlines the setup steps for creating a simple Data Lakehouse in Google Cloud. Our team utilized tools like Cloud Functions, Google Cloud Storage, Dataproc, BigQuery, and Looker Studio to build this streamlined solution.
 - [Part 1 - Data Ingestion Layer with Cloud Function](/setup_docs/Part%201%20-%20Data%20Ingestion%20Layer.md)
 - [Part 2a - Data Processing Layer with Dataproc](/setup_docs/Part%202a%20-%20Data%20Processing%20Layer.md)
 - [Part 2b - Data Processing Layer with Cloud SQL in BigQuery](/setup_docs/Part%202b%20-%20Data%20Processing%20Layer.md)
