@@ -10,7 +10,7 @@ Create two datasets in BigQuery for staging and fact tables:
 
 First, create the dataset in BigQuery. We've created two datasets in our BigQuery database, which are (1) staging, and (2) fact.
 
-```text-plain
+```sql
 CREATE SCHEMA IF NOT EXISTS staging
 OPTIONS (
   location = "US"
@@ -19,7 +19,7 @@ OPTIONS (
 
 *   Create fact dataset:
 
-```text-plain
+```sql
 CREATE SCHEMA IF NOT EXISTS fact
 OPTIONS (
   location = "US"
@@ -28,7 +28,7 @@ OPTIONS (
 
 You could also create them manually via the UI
 
-[](3_Part 3 - Analytics Layer Set u.jpg)
+![](3_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
 Step 2: Create Tables
 ---------------------
@@ -37,7 +37,7 @@ Step 2: Create Tables
 
 *   The staging table will temporarily store the processed data before moving it to the fact table:
 
-![](2_Part 3 - Analytics Layer Set u.jpg)
+![](2_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
 ```text-plain
 CREATE TABLE IF NOT EXISTS staging.co2_emissions (
@@ -60,9 +60,9 @@ CREATE TABLE IF NOT EXISTS staging.co2_emissions (
 
 *   The fact table will store the final, clean data:
 
-![](Part 3 - Analytics Layer Set u.jpg)
+![](Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
-```text-plain
+```sql
 CREATE TABLE IF NOT EXISTS fact.co2_emissions (
   make STRING,
   model STRING,
@@ -97,7 +97,7 @@ Both tables share identical schema with the following columns:
 *   `fuel_consumption_comb_mpg`
 *   `co2_emissions`
 
-Refer more to the schema at [](./Part%202b%20-%20Data%20Processing%20Layer.md)
+Refer more to the schema at [Data Dictionary](../dataset/).
 
 Data Flow
 ---------
