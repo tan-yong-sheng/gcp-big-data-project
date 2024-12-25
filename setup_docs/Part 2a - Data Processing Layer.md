@@ -290,14 +290,6 @@ The GCS to BigQuery script includes:
 *   Data deduplication
 *   Handling missing values
 
-Monitoring
-----------
-
-You can monitor job progress through:
-
-*   Dataproc Jobs UI
-*   Cloud Logging
-
 References
 ----------
 
