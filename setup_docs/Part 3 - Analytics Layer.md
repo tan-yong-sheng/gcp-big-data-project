@@ -28,7 +28,7 @@ OPTIONS (
 
 You could also create them manually via the UI
 
-![](3_Part 3 - Analytics Layer Set u.jpg)
+[](3_Part 3 - Analytics Layer Set u.jpg)
 
 Step 2: Create Tables
 ---------------------
