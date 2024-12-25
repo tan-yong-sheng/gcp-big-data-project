@@ -1,6 +1,6 @@
 # Data LakeHouse Architecture Pipeline
 
-This project demonstrates the design and implementation of a basic Data LakeHouse Architecture Pipeline using Google Cloud Platform (GCP) services. The pipeline is structured into five key layers: Ingestion, Storage, Process, Analytics, and Visualization. Each layer plays a critical role in transforming raw data into actionable insights, ensuring scalability, reliability, and automation at every stage of the data workflow.
+This project demonstrates the design and implementation of a basic Data LakeHouse Architecture Pipeline using Google Cloud Platform (GCP) services. The pipeline is structured into six key layers: Orchestration, Ingestion, Storage, Process, Analytics, and Visualization. Each layer plays a critical role in transforming raw data into actionable insights, ensuring scalability, reliability, and automation at every stage of the data workflow.
 
 ![](/images/data-pipeline-architecture.png)
 
