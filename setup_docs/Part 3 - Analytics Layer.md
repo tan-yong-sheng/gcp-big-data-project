@@ -3,12 +3,17 @@
 
 This guide outlines the steps to create the necessary BigQuery datasets and tables for storing CO2 emissions data.
 
+
 Step 1: Create Datasets
 -----------------------
 
 Create two datasets in BigQuery for staging and fact tables:
 
-First, create the dataset in BigQuery. We've created two datasets in our BigQuery database, which are (1) staging, and (2) fact.
+First, create the dataset in BigQuery. We've created two datasets in our BigQuery database, which are:-
+
+(i) staging dataset:
+
+![](../images/bigquery-create-staging-table-schema.png)
 
 ```sql
 CREATE SCHEMA IF NOT EXISTS staging
@@ -17,7 +22,9 @@ OPTIONS (
 );
 ```
 
-*   Create fact dataset:
+(ii) fact dataset:
+
+![](../images/bigquery-create-fact-table-schema.png)
 
 ```sql
 CREATE SCHEMA IF NOT EXISTS fact
@@ -26,7 +33,7 @@ OPTIONS (
 );
 ```
 
-You could also create them manually via the UI
+You could also create them manually via the UI:
 
 ![](../images/3_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
