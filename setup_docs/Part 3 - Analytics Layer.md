@@ -28,7 +28,7 @@ OPTIONS (
 
 You could also create them manually via the UI
 
-![](3_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
+![](../images/3_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
 Step 2: Create Tables
 ---------------------
@@ -37,7 +37,7 @@ Step 2: Create Tables
 
 *   The staging table will temporarily store the processed data before moving it to the fact table:
 
-![](2_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
+![](../images/2_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
 ```text-plain
 CREATE TABLE IF NOT EXISTS staging.co2_emissions (
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS staging.co2_emissions (
 
 *   The fact table will store the final, clean data:
 
-![](Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
+![](../images/Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
 ```sql
 CREATE TABLE IF NOT EXISTS fact.co2_emissions (
