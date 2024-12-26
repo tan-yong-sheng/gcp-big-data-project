@@ -75,7 +75,7 @@ Configure HTTP connection for Cloud Function integration:
 > gcloud composer environments run ${COMPOSER_ENV_NAME} \
     --location ${REGION} connections -- \
     add 'http_default' \
-    --conn-type 'https' \
+    --conn-type 'http' \
     --conn-host https://${REGION}-${PROJECT_ID}.cloudfunctions.net
 ```
 
