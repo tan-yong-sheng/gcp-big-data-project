@@ -77,3 +77,13 @@ Finally, the **Data Visualization Layer** uses **Looker Studio** to create inter
 ## Conclusion
 
 This Data LakeHouse Architecture Pipeline is a modern, cloud-native solution that seamlessly integrates data ingestion, processing, analytics, and visualization. By leveraging the power of Google Cloud services, this pipeline ensures a robust, scalable, and efficient data workflow, capable of handling large datasets and providing valuable insights through advanced analytics and interactive visualizations.
+
+
+## Contribution
+
+- Bong Hui Xin
+- Legawatthi A/P Thiyagarajan
+- Nitya A/P Ponnusamy
+- Nurfatin Syahirah Binti Sukaimi
+- Tan Yong Sheng
+
