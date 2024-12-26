@@ -46,21 +46,22 @@ Step 2: Create Tables
 
 ![](../images/2_Part%203%20-%20Analytics%20Layer%20Set%20u.jpg)
 
-```text-plain
+```sql
 CREATE TABLE IF NOT EXISTS staging.co2_emissions (
-  make STRING,
-  model STRING,
-  vehicle_class STRING,
-  engine_size FLOAT64,
-  cylinders INT64,
-  transmission STRING,
-  fuel_type STRING,
-  fuel_consumption_city FLOAT64,
-  fuel_consumption_hwy FLOAT64,
-  fuel_consumption_comb_lkm FLOAT64,
-  fuel_consumption_comb_mpg INT64,
-  co2_emissions INT64
+  make STRING NOT NULL,
+  model STRING NOT NULL,
+  vehicle_class STRING NOT NULL,
+  engine_size FLOAT64 NOT NULL,
+  cylinders INT64 NOT NULL,
+  transmission STRING NOT NULL,
+  fuel_type STRING NOT NULL,
+  fuel_consumption_city FLOAT64 NOT NULL,
+  fuel_consumption_hwy FLOAT64 NOT NULL,
+  fuel_consumption_comb_lkm FLOAT64 NOT NULL,
+  fuel_consumption_comb_mpg INT64 NOT NULL,
+  co2_emissions INT64 NOT NULL
 );
+
 ```
 
 ### Create Fact Table
@@ -71,19 +72,20 @@ CREATE TABLE IF NOT EXISTS staging.co2_emissions (
 
 ```sql
 CREATE TABLE IF NOT EXISTS fact.co2_emissions (
-  make STRING,
-  model STRING,
-  vehicle_class STRING,
-  engine_size FLOAT64,
-  cylinders INT64,
-  transmission STRING,
-  fuel_type STRING,
-  fuel_consumption_city FLOAT64,
-  fuel_consumption_hwy FLOAT64,
-  fuel_consumption_comb_lkm FLOAT64,
-  fuel_consumption_comb_mpg INT64,
-  co2_emissions INT64
+  make STRING NOT NULL,
+  model STRING NOT NULL,
+  vehicle_class STRING NOT NULL,
+  engine_size FLOAT64 NOT NULL,
+  cylinders INT64 NOT NULL,
+  transmission STRING NOT NULL,
+  fuel_type STRING NOT NULL,
+  fuel_consumption_city FLOAT64 NOT NULL,
+  fuel_consumption_hwy FLOAT64 NOT NULL,
+  fuel_consumption_comb_lkm FLOAT64 NOT NULL,
+  fuel_consumption_comb_mpg INT64 NOT NULL,
+  co2_emissions INT64 NOT NULL
 );
+
 ```
 
 Table Details
