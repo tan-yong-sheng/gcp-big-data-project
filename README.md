@@ -81,6 +81,8 @@ This Data LakeHouse Architecture Pipeline is a modern, cloud-native solution tha
 
 ## Contribution
 
+Thank you, team, for your hard work, support, and collaboration:
+
 - Bong Hui Xin
 - Legawatthi A/P Thiyagarajan
 - Nitya A/P Ponnusamy
