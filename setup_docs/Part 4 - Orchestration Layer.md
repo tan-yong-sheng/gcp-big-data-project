@@ -72,7 +72,7 @@ Step 5: Set Up Airflow Connection
 Configure HTTP connection for Cloud Function integration:
 
 ```bash
-gcloud composer environments run ${COMPOSER_ENV_NAME} \
+> gcloud composer environments run ${COMPOSER_ENV_NAME} \
     --location ${REGION} connections -- \
     add 'http_default' \
     --conn-type 'https' \
