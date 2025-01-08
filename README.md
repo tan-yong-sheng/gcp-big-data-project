@@ -72,9 +72,9 @@ Finally, the **Data Visualization Layer** uses **Looker Studio** to create inter
 | Orchestration     | Google Cloud Composer     | Automates task scheduling and coordinates data flow.            |
 | Ingestion         | Cloud Functions           | Automates data collection from APIs, including Kaggle.           |
 | Storage           | Google Cloud Storage      | Provides scalable, reliable, and cost-efficient data storage.   |
-| Processing        | Dataproc, BigQuery SQL       | Distributed data processing (PySpark) and relational data management. |
+| Processing        | Dataproc, BigQuery SQL    | Distributed data processing (PySpark) and relational data management. |
 | Analytics         | BigQuery, BigQuery ML     | Fast querying, analytics, and machine learning capabilities.    |
-| Data governance   | Dataplex                  |                                                                 | 
+| Data governance   | Dataplex                  | Automated data catalogue, data lineage tracking and data quality scan | 
 | Visualization     | Looker Studio             | Creates interactive dashboards and reports for data insights.   |
 
 ## Conclusion
