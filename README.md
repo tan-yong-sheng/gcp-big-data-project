@@ -12,7 +12,7 @@ We would like to invite you to explore our documentation guide, which outlines t
 - [Part 3 - Analytics Layer with BigQuery](/setup_docs/Part%203%20-%20Analytics%20Layer.md)
 - [Part 4 - Orchestration Layer with Composer](/setup_docs/Part%204%20-%20Orchestration%20Layer.md)
 - [Part 5 - Data Governance Layer with Dataplex](/setup_docs/Part%205%20-%20Data%20Governance%20Layer.md)
-- [Part 6 - Visualization Layer with Looker Studio](/setup_docs/Part%206%20-%20Visualization%20Layer.md)
+- Part 6 - Visualization Layer with Looker Studio
 
 And here is the a simple dataset about CO2 emissions in Canada we're performing data processing, analytics modeling and visualization with, using tools in Google Cloud!
 - [Data Description](/dataset/)
