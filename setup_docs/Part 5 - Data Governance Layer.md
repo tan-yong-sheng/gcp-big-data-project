@@ -52,20 +52,20 @@ Step 4: Configure data quality scans
 
 ![](../images/12_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
-![](../images/13_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/13_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 (II) RANGE check
 
-![](../images/6_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/6_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
-![](../images/7_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/7_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 Step 5: Data Validation Rules
 -----------------------------
 
 The image below shows the data validation rules that we're going to implement in Dataplex, to ensure our data integrity.
 
-![](../images/23_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/23_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 Here are the elaboration to some columns on why we enforce the data validation rules above: 
 
@@ -77,7 +77,7 @@ Values should typically fall within a reasonable range (e.g., 3 to 16).
 *   6-8 cylinders: Found in mid-sized and high-performance vehicles.
 *   12-16 cylinders: Rare, typically in high-end luxury or performance cars (e.g., Bugatti, Ferrari).
 
-![](../images/19_Part 5 - Data Governance Layer.jpg)
+![](../images/19_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 2\. `engine_size`
 
@@ -88,7 +88,7 @@ Values should be a numeric value, usually in the range of 0.5 litre to 10 litre:
 *   4.0-6.5 liters: Typical for high-performance or heavy-duty vehicles (e.g., sports cars, trucks).
 *   7.0-10 liters: Rare but used in ultra-high-performance cars (e.g., Bugatti) or commercial vehicles.
 
-![](../images/17_Part 5 - Data Governance Layer.jpg)
+![](../images/17_Part 5%20-%20Data%20Governance%20Layer.jpg)
 
 3\. `fuel_consumption_city`
 
@@ -99,7 +99,7 @@ Values should typically range within a practical limit (e.g., 2 to 50 L/100 km)
 *   16-30 L/100 km: Larger vehicles like trucks, vans, or high-performance cars.
 *   \>30 L/100 km: Heavy-duty or older, less efficient vehicles.
 
-![](../images/20_Part 5 - Data Governance Layer.jpg)
+![](../images/20_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 4\. `fuel_consumption_hwy`
 
@@ -110,16 +110,16 @@ Values should typically range within a practical limit (e.g., 2 to 50 L/100 km)
 *   11-20 L/100 km: Larger vehicles like trucks, vans, or high-performance cars.
 *   \>20 L/100 km: Rare, usually for heavy-duty vehicles or vehicles with mechanical issues.
 
-![](../images/21_Part 5 - Data Governance Layer.jpg)
+![](../images/21_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 Step 6: Set up Logs management for Dataplex scan's result
 ---------------------------------------------------------
 
 *   Then, we will enable logging for Dataplex scan results
 
-![](../images/14_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/14_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
-![](../images/15_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/15_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 *   Then, we can receive an email report after data quality scan is completed
 
