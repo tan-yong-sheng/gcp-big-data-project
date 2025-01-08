@@ -12,8 +12,6 @@ Step 1: Enable Required APIs
 > gcloud services enable datalineage.googleapis.com
 ```
 
-
-
 Step 2: Schema Creation
 -----------------------
 
@@ -38,15 +36,15 @@ Step 4: Configure data quality scans
 
 *   Name your scan rule
 
-![](../images/1_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/1_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 *   If you choose 'On demand', your data quality scan will be 'one-time scan'. But, you could repeat your data quality scan at predefined schedule.
 
-![](../images/2_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/2_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 *   Create data quality scan rules, such as 'NULL CHECK' and 'RANGE CHECK', etc.
 
-![](../images/3_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/3_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 (I) NULL check
 
@@ -88,7 +86,7 @@ Values should be a numeric value, usually in the range of 0.5 litre to 10 litre:
 *   4.0-6.5 liters: Typical for high-performance or heavy-duty vehicles (e.g., sports cars, trucks).
 *   7.0-10 liters: Rare but used in ultra-high-performance cars (e.g., Bugatti) or commercial vehicles.
 
-![](../images/17_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/17_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 3\. `fuel_consumption_city`
 
@@ -123,7 +121,7 @@ Step 6: Set up Logs management for Dataplex scan's result
 
 *   Then, we can receive an email report after data quality scan is completed
 
-![](../images/25_Part 5%20-%20Data%20Governance%20Layer.jpg)
+![](../images/25_Part%205%20-%20Data%20Governance%20Layer.jpg)
 
 Step 7: Set up Data Lineage Tracking
 ------------------------------------
