@@ -55,6 +55,10 @@ Step 3: Create Cloud Composer Environment
   --storage-bucket=${DAGS_BUCKET}
 ```
 
+This will start a composer instance with following environment variables:
+<img width="831" alt="{20B55405-5A2F-4A2A-8E8A-DE85887F12AD}" src="https://github.com/user-attachments/assets/614b4616-f5aa-447c-b82d-543136f4c307" />
+
+
 Step 4: Configure Dataproc Integration
 --------------------------------------
 
