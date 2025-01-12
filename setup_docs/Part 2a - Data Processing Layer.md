@@ -115,13 +115,13 @@ Step 7: Test PySpark Setup
 *   Create a directory for the Dataproc's script
 
 ```bash
-mkdir -p dpr_scripts
+> mkdir -p dpr_scripts
 ```
 
 *   Create a test PySpark script:
 
 ```bash
-nano dpr_scripts/test.py
+> nano dpr_scripts/test.py
 ```
 
 Add the following to the test.py file
