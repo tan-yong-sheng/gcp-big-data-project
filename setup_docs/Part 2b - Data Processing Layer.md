@@ -1,4 +1,4 @@
-# Part 2b - Data processing with Cloud SQL in BigQuery
+# Part 2b - Data processing with BigQuery SQL in BigQuery
 Upserting Data from Staging to Fact Table to Avoid Duplicates
 -------------------------------------------------------------
 
