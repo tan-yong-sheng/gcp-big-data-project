@@ -269,7 +269,7 @@ Monitoring
 You can monitor the function's execution using Cloud Logging:
 
 ```bash
-gcloud functions logs read download_and_upload
+> gcloud functions logs read download_and_upload
 ```
 
 Reference
