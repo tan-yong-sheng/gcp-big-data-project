@@ -1,5 +1,4 @@
 # Part 5 - Data Governance Layer with Dataplex
-Data Governance Setup Guide with Dataplex
 -----------------------------------------
 
 Step 1: Enable Required APIs
