@@ -25,7 +25,6 @@ First, set up the necessary environment variables in Cloud Shell:
 > export REGION=us-central1
 > export BUCKET=dataproc-composer
 > export STAGING_BUCKET=dataproc-composer-staging
-> export PHS_CLUSTER_NAME=phs-my
 > export SERVICE_ACCOUNT_EMAIL=552356513533-compute@developer.gserviceaccount.com
 ```
 
