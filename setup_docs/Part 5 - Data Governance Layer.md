@@ -9,7 +9,7 @@
 Step 1: Enable Required APIs
 ----------------------------
 
-The commands are executed under the cloud shell terminal…
+The commands below (if any) are executed under the cloud shell terminal…
 
 ![](../images/Part%201%20-%20Data%20Ingestion%20Layer.jpg)
 
