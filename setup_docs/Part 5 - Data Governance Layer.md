@@ -1,8 +1,18 @@
 # Part 5 - Data Governance Layer with Dataplex
 -----------------------------------------
 
+## Prerequisites
+1. Google Cloud Platform account with billing enabled
+2. Kaggle account with API access
+3. Google Cloud Shell
+
 Step 1: Enable Required APIs
 ----------------------------
+
+The commands are executed under the cloud shell terminal…
+
+![](../images/Part%201%20-%20Data%20Ingestion%20Layer.jpg)
+
 
 *   First, enable the required Google Cloud services:
 
